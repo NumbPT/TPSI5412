@@ -6,7 +6,7 @@ import model.Restaurante;
 
 public class IntroRestaurante {
 
-	ArrayList<Restaurtante> iRestaurante;
+	ArrayList<Restaurante>iRestaurante;
 	
 	public IntroRestaurante() {
 		

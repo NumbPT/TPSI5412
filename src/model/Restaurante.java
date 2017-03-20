@@ -1,6 +1,6 @@
 package model;
 
-import java.util.ArrayList;
+
 
 public class Restaurante {
 
@@ -9,15 +9,15 @@ public class Restaurante {
 	private String contacto;
 	private String especialidade;
 	
-	int id;
+	int Id;
 
-	public Restaurante(String nome, String morada, String contacto, String especialidade, int id) {
+	public Restaurante(String nome, String morada, String contacto, String especialidade) {
 		super();
 		this.nome = nome;
 		this.morada = morada;
 		this.contacto = contacto;
 		this.especialidade = especialidade;
-		this.id = id;
+		this.Id = Id;
 	}
 
 	public String getNome() {
@@ -53,12 +53,11 @@ public class Restaurante {
 	}
 
 	public int getId() {
-		return id;
+		return Id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
-	
-	
+
 }

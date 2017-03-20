@@ -1,6 +1,6 @@
 package model;
 
-import java.util.ArrayList;
+
 
 public class Cliente {
 
@@ -9,15 +9,15 @@ public class Cliente {
 	private String email;
 	private String telefone;
 	
-	int id;
+	int Id;
 
-	public Cliente(String nome, String morada, String email, String telefone, int id) {
+	public Cliente(String nome, String morada, String email, String telefone) {
 		super();
 		this.nome = nome;
 		this.morada = morada;
 		this.email = email;
 		this.telefone = telefone;
-		this.id = id;
+		this.Id = Id;
 	}
 
 	public String getNome() {
@@ -53,11 +53,11 @@ public class Cliente {
 	}
 
 	public int getId() {
-		return id;
+		return Id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setId(int Id) {
+		this.Id = Id;
 	}
 	
 }
